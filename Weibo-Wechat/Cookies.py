@@ -24,7 +24,7 @@ def  getCookies(userid,pwd):
         time.sleep(3)
 
         driver.find_element_by_xpath("//*[@id=\"loginAction\"]").click()
-        time.sleep(5)
+        time.sleep(10)
     except Exception as e:
         print("登陆过程出现问题，请重试")
         print(e)
